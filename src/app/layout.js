@@ -1,6 +1,6 @@
 import { Lato } from "next/font/google";
 import "./globals.css";
-import Sidebar from "./components/Sidebar";
+import Sidebar from "./components/navigation/Sidebar";
 
 const lato = Lato({
   subsets: ["latin"],
@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${lato.variable} antialiased`}>
+      <body className={`${lato.variable} antialiased flex`}>
         <Sidebar />
         {children}
       </body>
