@@ -1,10 +1,10 @@
 import Image from "next/image";
-import { MovieCard } from "./components/MovieCard";
+import MovieContainer from "./components/MovieContainer";
 
 export default function Home() {
   return (
     <div className="">
-      <MovieCard />
+      <MovieContainer />
     </div>
   );
 }

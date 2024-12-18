@@ -6,7 +6,7 @@ import MyLists from "./MyLists";
 
 const Sidebar = () => {
   return (
-    <div className="w-[375px] bg-black min-h-screen flex flex-col pt-5 pr-8 pl-[30px]">
+    <div className="w-[375  px] bg-black min-h-screen flex flex-col pt-5 pr-8 pl-[30px]">
       <div className="flex flex-col border-b-[#D9D9D9] border-b-[0.5px] border-opacity-30 pb-4 mb-4">
         <div className="flex gap-7 flex-col">
           {/* Logo */}
