@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${lato.variable} antialiased flex`}>
         <Sidebar />
-        {children}
+        <div className="flex-1 overflow-auto">{children}</div>
       </body>
     </html>
   );
